@@ -24,7 +24,7 @@ public class CheckPlugin extends AbstractMojo {
 
     private static final String PART = "@Value[(]\"(.)*:(.)*\"[)]";
 
-    private static final String PART_RIGHT = "@Value[(]\"\\$\\{(\\w|-)+:(\\w|-)+}\"[)]";
+    private static final String PART_RIGHT = "@Value[(]\"\\$\\{(\\w|-)+:(.)+}\"[)]";
 
     private static final String PREFIX = "@Value";
 
